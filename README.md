@@ -7,13 +7,15 @@ routines, written without the C standard library. Builds for both a host machine
 Originally written for the University of Colorado Boulder *Introduction to
 Embedded Systems Software and Development Environments* course.
 
-**Attribution.** `src/memory.c` (the `my_*` functions), `src/data.c`,
-`src/stats.c`, `src/main.c`, and `include/common/stats.h` are mine, along with
-the `PLATFORM` handling in the `Makefile` and `sources.mk`. The test harness
-(`src/course1.c`, `include/common/course1.h`), `include/common/memory.h`, the
-MSP432 board support files, linker script, and CMSIS headers are course material
-by Alex Fosdick / University of Colorado and retain their original copyright.
+**Attribution.** This is coursework, not an original project. The course supplied the project
+skeleton — board support files, linker script, CMSIS headers, the test harness,
+and function prototypes to implement against. I wrote the implementations:
+the `my_*` functions in `src/memory.c`, all of `src/data.c` and `src/stats.c`,
+`src/main.c`, `include/common/stats.h`, and the `PLATFORM` handling in the
+`Makefile` and `sources.mk`.
 
+The course material is by Alex Fosdick / University of Colorado and retains
+its original copyright.
 ## What's here
 
 ### `src/memory.c` — memory manipulation
